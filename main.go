@@ -7,7 +7,7 @@ import (
 	"github.com/eawsy/aws-lambda-go-core/service/lambda/runtime"
 )
 
-const myInput = "hellooo world"
+const myInput = "hellooo CI world"
 
 // Echo returns its input
 func Echo(input string) string {
